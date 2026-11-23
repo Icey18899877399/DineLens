@@ -1,0 +1,58 @@
+{
+  "model": "baseline",
+  "aspect_keys": [
+    "Location#Transportation",
+    "Location#Downtown",
+    "Location#Easy_to_find",
+    "Service#Queue",
+    "Service#Hospitality",
+    "Service#Parking",
+    "Service#Timely",
+    "Price#Level",
+    "Price#Cost_effective",
+    "Price#Discount",
+    "Ambience#Decoration",
+    "Ambience#Noise",
+    "Ambience#Space",
+    "Ambience#Sanitary",
+    "Food#Portion",
+    "Food#Taste",
+    "Food#Appearance",
+    "Food#Recommend"
+  ],
+  "seed": 42,
+  "splits": {
+    "train": {
+      "reviews": 36832,
+      "removed_duplicates": 18
+    },
+    "dev": {
+      "reviews": 4939,
+      "removed_duplicates": 1
+    },
+    "test": {
+      "reviews": 4940,
+      "removed_duplicates": 0
+    }
+  },
+  "thresholds": [
+    0.5249370363518966,
+    0.49418663881571256,
+    0.5704805733775408,
+    0.48429746931112627,
+    0.3980565941952446,
+    0.5028240734438993,
+    0.5249701452703157,
+    0.43246849547556276,
+    0.4956033422548584,
+    0.44601401604746044,
+    0.4366715561871278,
+    0.47817799774602443,
+    0.47070625871573796,
+    0.43680726810508347,
+    0.4841294868855147,
+    0.18056593336826524,
+    0.45510207761673493,
+    0.5501178701848599
+  ]
+}

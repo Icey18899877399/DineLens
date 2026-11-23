@@ -1,0 +1,19 @@
+# Python environments and caches
+/.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+
+# Local previews and temporary outputs
+/web/preview/
+/reports/archive/
+/runs/.[^/]*/
+/runs/autodl-20261123/logs/
+/runs/autodl-20261123/pretrained/
+
+# Trained binaries are in GitHub Releases
+*.joblib
+*.safetensors
+/runs/autodl-20261123/runs/joint_bert/checkpoint/

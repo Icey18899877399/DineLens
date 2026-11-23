@@ -1,0 +1,85 @@
+{
+  "model": "bert",
+  "aspect_keys": [
+    "Location#Transportation",
+    "Location#Downtown",
+    "Location#Easy_to_find",
+    "Service#Queue",
+    "Service#Hospitality",
+    "Service#Parking",
+    "Service#Timely",
+    "Price#Level",
+    "Price#Cost_effective",
+    "Price#Discount",
+    "Ambience#Decoration",
+    "Ambience#Noise",
+    "Ambience#Space",
+    "Ambience#Sanitary",
+    "Food#Portion",
+    "Food#Taste",
+    "Food#Appearance",
+    "Food#Recommend"
+  ],
+  "seed": 42,
+  "splits": {
+    "train": {
+      "reviews": 36832,
+      "removed_duplicates": 18
+    },
+    "dev": {
+      "reviews": 4939,
+      "removed_duplicates": 1
+    },
+    "test": {
+      "reviews": 4940,
+      "removed_duplicates": 0
+    }
+  },
+  "task": "sentiment",
+  "source_checkpoint": "checkpoints/bert-base-chinese",
+  "device": "cuda",
+  "max_length": 512,
+  "batch_size": 8,
+  "learning_rate": 2e-05,
+  "best_epoch": 3,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.1663232930943201,
+      "dev_macro_f1": 0.8101212939718466,
+      "dev_sentiment_macro_f1": 0.7382935598995282
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.8558314610936143,
+      "dev_macro_f1": 0.8329598905198194,
+      "dev_sentiment_macro_f1": 0.7658911858595583
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.7418411745391236,
+      "dev_macro_f1": 0.837588408201746,
+      "dev_sentiment_macro_f1": 0.7743776144757862
+    }
+  ],
+  "thresholds": [
+    0.7077078223228455,
+    0.8017807006835938,
+    0.7992857098579407,
+    0.8269913792610168,
+    0.3565586805343628,
+    0.9219217896461487,
+    0.892375111579895,
+    0.518363356590271,
+    0.7160201072692871,
+    0.7192850708961487,
+    0.4170340299606323,
+    0.5167478919029236,
+    0.5221108198165894,
+    0.6230328679084778,
+    0.5814813375473022,
+    0.09653531759977341,
+    0.5573936104774475,
+    0.8057851195335388
+  ]
+}

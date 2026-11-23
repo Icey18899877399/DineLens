@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf4e8">
+  <meta name="description" content="按口味、价格和上菜速度阅读餐饮评论，点开查看食客原话。">
+  <title>餐前点评 · 看看大家怎么说</title>
+  <link rel="preload" href="/assets/noto-serif-sc.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/evaluation.js" defer></script>
+  <script src="/app.js" defer></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="#top"><span class="bowl" aria-hidden="true"></span>餐前点评</a>
+      <nav aria-label="主导航">
+        <a href="#overview">点评概览</a>
+        <a href="#reviews">评论原文</a>
+        <button type="button" class="text-button" data-open-metrics>数据说明</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="wrap hero" aria-labelledby="title">
+      <div class="hero-copy">
+        <h1 id="title">吃之前，<br>先看看大家怎么说<span>。</span></h1>
+        <p>口味、分量、上菜速度。挑你在意的方面，看看食客的原话。</p>
+        <div class="actions">
+          <a class="button primary" href="#overview">看点评示例</a>
+          <button type="button" class="button secondary" data-open-analysis>分析我的评论</button>
+        </div>
+      </div>
+      <figure class="hero-image">
+        <img src="/assets/dinner-table.jpg" width="1400" height="2100" alt="木桌上的麻婆豆腐和几盘中式家常菜" fetchpriority="high">
+      </figure>
+    </section>
+
+    <section class="overview-band" id="overview" aria-labelledby="overview-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="overview-title">大家在意什么</h2>
+        </div>
+        <div class="summary-grid" id="summary-grid" aria-busy="true">
+          <section class="summary positive" aria-labelledby="positive-title">
+            <h3 id="positive-title">大家常夸</h3>
+            <ul id="positive-list" class="summary-list"><li class="state">正在读取评论</li></ul>
+          </section>
+          <section class="summary negative" aria-labelledby="negative-title">
+            <h3 id="negative-title">提前留意</h3>
+            <ul id="negative-list" class="summary-list"><li class="state">正在读取评论</li></ul>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap reviews" id="reviews" aria-labelledby="reviews-title">
+      <div class="section-head">
+        <h2 id="reviews-title">看看食客原话</h2>
+        <span class="source" id="review-count" aria-live="polite"></span>
+      </div>
+      <div class="review-controls">
+        <div id="quick-aspects" class="chips" aria-label="常看方面"></div>
+        <div class="selects">
+          <label><span class="sr-only">全部评价方面</span>
+            <select id="aspect-filter" aria-label="评价方面"><option value="">全部方面</option></select>
+          </label>
+          <label><span class="sr-only">情感筛选</span>
+            <select id="sentiment-filter" aria-label="情感筛选">
+              <option value="">全部情感</option>
+              <option value="1">正面</option>
+              <option value="0">中性</option>
+              <option value="-1">负面</option>
+            </select>
+          </label>
+        </div>
+      </div>
+      <p class="state" id="review-status" role="status">正在加载评论</p>
+      <div class="review-grid" id="review-grid"></div>
+      <div class="more-row"><button type="button" class="button secondary" id="load-more" hidden>查看更多评论</button></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer">
+      <span>餐前点评</span>
+      <span>评论样本 <a href="https://github.com/Meituan-Dianping/asap">ASAP</a> · 场景摄影 <a href="https://unsplash.com/photos/a-close-up-of-a-delicious-meal-on-a-table-hGeGkdSOkCg">Anh Tuan To</a></span>
+    </div>
+  </footer>
+
+  <dialog id="review-dialog" aria-labelledby="review-dialog-title">
+    <div class="dialog-heading">
+      <h2 id="review-dialog-title">评论原文</h2>
+      <form method="dialog"><button type="submit" class="close-button" aria-label="关闭评论原文">×</button></form>
+    </div>
+    <div class="dialog-body" id="review-detail"></div>
+  </dialog>
+
+  <dialog id="analysis-dialog" aria-labelledby="analysis-title">
+    <div class="dialog-heading">
+      <h2 id="analysis-title">分析我的评论</h2>
+      <form method="dialog"><button type="submit" class="close-button" aria-label="关闭分析">×</button></form>
+    </div>
+    <div class="dialog-body">
+      <form id="analysis-form">
+        <label class="sr-only" for="review-input">餐饮评论原文</label>
+        <textarea id="review-input" rows="4" maxlength="4000" required aria-describedby="analysis-limit" placeholder="粘贴一条餐饮评论"></textarea>
+        <p class="state" id="analysis-limit">较长评论的情感判断使用前 512 个分词。</p>
+        <div class="actions form-actions">
+          <button type="submit" class="button primary" id="analyze-button">分析评论</button>
+          <button type="button" class="button secondary" id="fill-example">填入示例</button>
+        </div>
+      </form>
+      <p class="state" id="analysis-status" role="status"></p>
+      <div id="analysis-result"></div>
+    </div>
+  </dialog>
+
+  <dialog id="metrics-dialog" aria-labelledby="metrics-title">
+    <div class="dialog-heading">
+      <h2 id="metrics-title">数据说明</h2>
+      <form method="dialog"><button type="submit" class="close-button" aria-label="关闭数据说明">×</button></form>
+    </div>
+    <div class="dialog-body" id="metrics-content"></div>
+  </dialog>
+</body>
+</html>

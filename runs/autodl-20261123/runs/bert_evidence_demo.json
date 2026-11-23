@@ -1,0 +1,264 @@
+[
+  {
+    "aspect": "Location#Transportation",
+    "group": "\u4f4d\u7f6e",
+    "name": "\u4ea4\u901a\u4fbf\u5229",
+    "mentioned": 0,
+    "score": 0.021739594638347626,
+    "threshold": 0.7077078223228455,
+    "sentiment": -2,
+    "sentiment_name": "\u672a\u63d0\u53ca",
+    "sentiment_scores": null,
+    "evidence": null
+  },
+  {
+    "aspect": "Location#Downtown",
+    "group": "\u4f4d\u7f6e",
+    "name": "\u8ddd\u5546\u5708\u8fdc\u8fd1",
+    "mentioned": 0,
+    "score": 0.060863446444272995,
+    "threshold": 0.8017807006835938,
+    "sentiment": -2,
+    "sentiment_name": "\u672a\u63d0\u53ca",
+    "sentiment_scores": null,
+    "evidence": null
+  },
+  {
+    "aspect": "Location#Easy_to_find",
+    "group": "\u4f4d\u7f6e",
+    "name": "\u662f\u5426\u5bb9\u6613\u627e\u5230",
+    "mentioned": 0,
+    "score": 0.033148519694805145,
+    "threshold": 0.7992857098579407,
+    "sentiment": -2,
+    "sentiment_name": "\u672a\u63d0\u53ca",
+    "sentiment_scores": null,
+    "evidence": null
+  },
+  {
+    "aspect": "Service#Queue",
+    "group": "\u670d\u52a1",
+    "name": "\u6392\u961f\u65f6\u95f4",
+    "mentioned": 0,
+    "score": 0.5206791162490845,
+    "threshold": 0.8269913792610168,
+    "sentiment": -2,
+    "sentiment_name": "\u672a\u63d0\u53ca",
+    "sentiment_scores": null,
+    "evidence": null
+  },
+  {
+    "aspect": "Service#Hospitality",
+    "group": "\u670d\u52a1",
+    "name": "\u670d\u52a1\u4eba\u5458\u6001\u5ea6",
+    "mentioned": 1,
+    "score": 0.9628131985664368,
+    "threshold": 0.3565586805343628,
+    "sentiment": -1,
+    "sentiment_name": "\u8d1f\u9762",
+    "sentiment_scores": {
+      "negative": 0.8740278482437134,
+      "neutral": 0.09823093563318253,
+      "positive": 0.027741150930523872
+    },
+    "evidence": {
+      "tfidf": {
+        "text": "\u524d\u53f0\u6001\u5ea6\u5f88\u5dee",
+        "start": 17,
+        "end": 23,
+        "start_utf16": 17,
+        "end_utf16": 23,
+        "score": 0.1562003616784816
+      },
+      "textrank": {
+        "text": "\u524d\u53f0\u6001\u5ea6\u5f88\u5dee",
+        "start": 17,
+        "end": 23,
+        "start_utf16": 17,
+        "end_utf16": 23,
+        "score": 1.0
+      }
+    }
+  },
+  {
+    "aspect": "Service#Parking",
+    "group": "\u670d\u52a1",
+    "name": "\u505c\u8f66\u4fbf\u5229",
+    "mentioned": 0,
+    "score": 0.07316472381353378,
+    "threshold": 0.9219217896461487,
+    "sentiment": -2,
+    "sentiment_name": "\u672a\u63d0\u53ca",
+    "sentiment_scores": null,
+    "evidence": null
+  },
+  {
+    "aspect": "Service#Timely",
+    "group": "\u670d\u52a1",
+    "name": "\u70b9\u83dc\uff0f\u4e0a\u83dc\u901f\u5ea6",
+    "mentioned": 1,
+    "score": 0.9993333220481873,
+    "threshold": 0.892375111579895,
+    "sentiment": -1,
+    "sentiment_name": "\u8d1f\u9762",
+    "sentiment_scores": {
+      "negative": 0.9337476491928101,
+      "neutral": 0.061685144901275635,
+      "positive": 0.004567170049995184
+    },
+    "evidence": {
+      "tfidf": {
+        "text": "\u7b49\u4e86\u56db\u5341\u5206\u949f\u624d\u4e0a\u83dc",
+        "start": 7,
+        "end": 16,
+        "start_utf16": 7,
+        "end_utf16": 16,
+        "score": 0.06652163424956109
+      },
+      "textrank": {
+        "text": "\u7b49\u4e86\u56db\u5341\u5206\u949f\u624d\u4e0a\u83dc",
+        "start": 7,
+        "end": 16,
+        "start_utf16": 7,
+        "end_utf16": 16,
+        "score": 1.0
+      }
+    }
+  },
+  {
+    "aspect": "Price#Level",
+    "group": "\u4ef7\u683c",
+    "name": "\u4ef7\u683c\u6c34\u5e73",
+    "mentioned": 0,
+    "score": 0.047514185309410095,
+    "threshold": 0.518363356590271,
+    "sentiment": -2,
+    "sentiment_name": "\u672a\u63d0\u53ca",
+    "sentiment_scores": null,
+    "evidence": null
+  },
+  {
+    "aspect": "Price#Cost_effective",
+    "group": "\u4ef7\u683c",
+    "name": "\u6027\u4ef7\u6bd4",
+    "mentioned": 0,
+    "score": 0.04476431384682655,
+    "threshold": 0.7160201072692871,
+    "sentiment": -2,
+    "sentiment_name": "\u672a\u63d0\u53ca",
+    "sentiment_scores": null,
+    "evidence": null
+  },
+  {
+    "aspect": "Price#Discount",
+    "group": "\u4ef7\u683c",
+    "name": "\u6298\u6263\u529b\u5ea6",
+    "mentioned": 0,
+    "score": 0.035678550601005554,
+    "threshold": 0.7192850708961487,
+    "sentiment": -2,
+    "sentiment_name": "\u672a\u63d0\u53ca",
+    "sentiment_scores": null,
+    "evidence": null
+  },
+  {
+    "aspect": "Ambience#Decoration",
+    "group": "\u73af\u5883",
+    "name": "\u88c5\u4fee",
+    "mentioned": 0,
+    "score": 0.04123002663254738,
+    "threshold": 0.4170340299606323,
+    "sentiment": -2,
+    "sentiment_name": "\u672a\u63d0\u53ca",
+    "sentiment_scores": null,
+    "evidence": null
+  },
+  {
+    "aspect": "Ambience#Noise",
+    "group": "\u73af\u5883",
+    "name": "\u566a\u58f0",
+    "mentioned": 0,
+    "score": 0.04922211170196533,
+    "threshold": 0.5167478919029236,
+    "sentiment": -2,
+    "sentiment_name": "\u672a\u63d0\u53ca",
+    "sentiment_scores": null,
+    "evidence": null
+  },
+  {
+    "aspect": "Ambience#Space",
+    "group": "\u73af\u5883",
+    "name": "\u5c31\u9910\u7a7a\u95f4",
+    "mentioned": 0,
+    "score": 0.019271137192845345,
+    "threshold": 0.5221108198165894,
+    "sentiment": -2,
+    "sentiment_name": "\u672a\u63d0\u53ca",
+    "sentiment_scores": null,
+    "evidence": null
+  },
+  {
+    "aspect": "Ambience#Sanitary",
+    "group": "\u73af\u5883",
+    "name": "\u536b\u751f",
+    "mentioned": 0,
+    "score": 0.05717659741640091,
+    "threshold": 0.6230328679084778,
+    "sentiment": -2,
+    "sentiment_name": "\u672a\u63d0\u53ca",
+    "sentiment_scores": null,
+    "evidence": null
+  },
+  {
+    "aspect": "Food#Portion",
+    "group": "\u83dc\u54c1",
+    "name": "\u5206\u91cf",
+    "mentioned": 0,
+    "score": 0.14475227892398834,
+    "threshold": 0.5814813375473022,
+    "sentiment": -2,
+    "sentiment_name": "\u672a\u63d0\u53ca",
+    "sentiment_scores": null,
+    "evidence": null
+  },
+  {
+    "aspect": "Food#Taste",
+    "group": "\u83dc\u54c1",
+    "name": "\u53e3\u5473",
+    "mentioned": 1,
+    "score": 0.26340988278388977,
+    "threshold": 0.09653531759977341,
+    "sentiment": 1,
+    "sentiment_name": "\u6b63\u9762",
+    "sentiment_scores": {
+      "negative": 0.004891717340797186,
+      "neutral": 0.01817493326961994,
+      "positive": 0.9769333004951477
+    },
+    "evidence": null
+  },
+  {
+    "aspect": "Food#Appearance",
+    "group": "\u83dc\u54c1",
+    "name": "\u5916\u89c2",
+    "mentioned": 0,
+    "score": 0.12776140868663788,
+    "threshold": 0.5573936104774475,
+    "sentiment": -2,
+    "sentiment_name": "\u672a\u63d0\u53ca",
+    "sentiment_scores": null,
+    "evidence": null
+  },
+  {
+    "aspect": "Food#Recommend",
+    "group": "\u83dc\u54c1",
+    "name": "\u63a8\u8350\u7a0b\u5ea6",
+    "mentioned": 0,
+    "score": 0.2603894770145416,
+    "threshold": 0.8057851195335388,
+    "sentiment": -2,
+    "sentiment_name": "\u672a\u63d0\u53ca",
+    "sentiment_scores": null,
+    "evidence": null
+  }
+]

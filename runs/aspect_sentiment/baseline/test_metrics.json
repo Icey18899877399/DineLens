@@ -1,0 +1,1176 @@
+{
+  "n_reviews": 4940,
+  "macro_f1": 0.7596502692971975,
+  "micro_f1": 0.799375593864531,
+  "aspects": [
+    {
+      "aspect": "Location#Transportation",
+      "group": "位置",
+      "name": "交通便利",
+      "precision": 0.8197611292073833,
+      "recall": 0.7719836400817995,
+      "f1": 0.7951553449183781,
+      "support": 978
+    },
+    {
+      "aspect": "Location#Downtown",
+      "group": "位置",
+      "name": "距商圈远近",
+      "precision": 0.5411089866156787,
+      "recall": 0.6505747126436782,
+      "f1": 0.5908141962421712,
+      "support": 870
+    },
+    {
+      "aspect": "Location#Easy_to_find",
+      "group": "位置",
+      "name": "是否容易找到",
+      "precision": 0.8050239234449761,
+      "recall": 0.685336048879837,
+      "f1": 0.7403740374037404,
+      "support": 982
+    },
+    {
+      "aspect": "Service#Queue",
+      "group": "服务",
+      "name": "排队时间",
+      "precision": 0.6100427350427351,
+      "recall": 0.7843406593406593,
+      "f1": 0.6862980769230769,
+      "support": 728
+    },
+    {
+      "aspect": "Service#Hospitality",
+      "group": "服务",
+      "name": "服务人员态度",
+      "precision": 0.8824343015214384,
+      "recall": 0.9104530859793079,
+      "f1": 0.8962247585601405,
+      "support": 2803
+    },
+    {
+      "aspect": "Service#Parking",
+      "group": "服务",
+      "name": "停车便利",
+      "precision": 0.8553846153846154,
+      "recall": 0.852760736196319,
+      "f1": 0.8540706605222734,
+      "support": 326
+    },
+    {
+      "aspect": "Service#Timely",
+      "group": "服务",
+      "name": "点菜／上菜速度",
+      "precision": 0.7567185289957568,
+      "recall": 0.7039473684210527,
+      "f1": 0.7293796864349011,
+      "support": 760
+    },
+    {
+      "aspect": "Price#Level",
+      "group": "价格",
+      "name": "价格水平",
+      "precision": 0.8125246159905475,
+      "recall": 0.8472279260780288,
+      "f1": 0.82951347004423,
+      "support": 2435
+    },
+    {
+      "aspect": "Price#Cost_effective",
+      "group": "价格",
+      "name": "性价比",
+      "precision": 0.7151567944250871,
+      "recall": 0.7623026926648097,
+      "f1": 0.7379775280898876,
+      "support": 1077
+    },
+    {
+      "aspect": "Price#Discount",
+      "group": "价格",
+      "name": "折扣力度",
+      "precision": 0.7895362663495838,
+      "recall": 0.8534704370179949,
+      "f1": 0.820259419394688,
+      "support": 1556
+    },
+    {
+      "aspect": "Ambience#Decoration",
+      "group": "环境",
+      "name": "装修",
+      "precision": 0.8011002962336013,
+      "recall": 0.8866510538641686,
+      "f1": 0.8417074255224545,
+      "support": 2135
+    },
+    {
+      "aspect": "Ambience#Noise",
+      "group": "环境",
+      "name": "噪声",
+      "precision": 0.7226048841577959,
+      "recall": 0.7997227997227997,
+      "f1": 0.7592105263157894,
+      "support": 1443
+    },
+    {
+      "aspect": "Ambience#Space",
+      "group": "环境",
+      "name": "就餐空间",
+      "precision": 0.6856856856856857,
+      "recall": 0.7860011474469306,
+      "f1": 0.7324244854317028,
+      "support": 1743
+    },
+    {
+      "aspect": "Ambience#Sanitary",
+      "group": "环境",
+      "name": "卫生",
+      "precision": 0.7180394138453765,
+      "recall": 0.8701775872627067,
+      "f1": 0.7868217054263565,
+      "support": 1633
+    },
+    {
+      "aspect": "Food#Portion",
+      "group": "菜品",
+      "name": "分量",
+      "precision": 0.7496409765438009,
+      "recall": 0.7464251668255482,
+      "f1": 0.7480296154764748,
+      "support": 2098
+    },
+    {
+      "aspect": "Food#Taste",
+      "group": "菜品",
+      "name": "口味",
+      "precision": 0.9583676834295136,
+      "recall": 0.9938020944646292,
+      "f1": 0.9757632987094743,
+      "support": 4679
+    },
+    {
+      "aspect": "Food#Appearance",
+      "group": "菜品",
+      "name": "外观",
+      "precision": 0.47141255605381166,
+      "recall": 0.6701195219123506,
+      "f1": 0.5534715366897005,
+      "support": 1255
+    },
+    {
+      "aspect": "Food#Recommend",
+      "group": "菜品",
+      "name": "推荐程度",
+      "precision": 0.5897727272727272,
+      "recall": 0.6027874564459931,
+      "f1": 0.5962090752441126,
+      "support": 861
+    }
+  ],
+  "sentiment": {
+    "support": 28362,
+    "macro_f1": 0.6798785726155087,
+    "classes": [
+      {
+        "value": -1,
+        "key": "negative",
+        "name": "负面",
+        "precision": 0.6065283400809717,
+        "recall": 0.6286388670338316,
+        "f1": 0.6173857050869285,
+        "support": 3813
+      },
+      {
+        "value": 0,
+        "key": "neutral",
+        "name": "中性",
+        "precision": 0.5747286390203172,
+        "recall": 0.5878166808995161,
+        "f1": 0.5811989867717422,
+        "support": 7026
+      },
+      {
+        "value": 1,
+        "key": "positive",
+        "name": "正面",
+        "precision": 0.8483511379470506,
+        "recall": 0.8338754779432745,
+        "f1": 0.8410510259878551,
+        "support": 17523
+      }
+    ],
+    "confusion_matrix": [
+      [
+        2397,
+        820,
+        596
+      ],
+      [
+        880,
+        4130,
+        2016
+      ],
+      [
+        675,
+        2236,
+        14612
+      ]
+    ],
+    "aspects": [
+      {
+        "support": 978,
+        "macro_f1": 0.48875898185361094,
+        "classes": [
+          {
+            "value": -1,
+            "key": "negative",
+            "name": "负面",
+            "precision": 0.6382978723404256,
+            "recall": 0.4411764705882353,
+            "f1": 0.5217391304347826,
+            "support": 68
+          },
+          {
+            "value": 0,
+            "key": "neutral",
+            "name": "中性",
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 47
+          },
+          {
+            "value": 1,
+            "key": "positive",
+            "name": "正面",
+            "precision": 0.9143167028199566,
+            "recall": 0.9768250289687138,
+            "f1": 0.9445378151260504,
+            "support": 863
+          }
+        ],
+        "confusion_matrix": [
+          [
+            30,
+            1,
+            37
+          ],
+          [
+            5,
+            0,
+            42
+          ],
+          [
+            12,
+            8,
+            843
+          ]
+        ],
+        "aspect": "Location#Transportation",
+        "group": "位置",
+        "name": "交通便利"
+      },
+      {
+        "support": 870,
+        "macro_f1": 0.4463739694133975,
+        "classes": [
+          {
+            "value": -1,
+            "key": "negative",
+            "name": "负面",
+            "precision": 0.8,
+            "recall": 0.16666666666666666,
+            "f1": 0.27586206896551724,
+            "support": 24
+          },
+          {
+            "value": 0,
+            "key": "neutral",
+            "name": "中性",
+            "precision": 1.0,
+            "recall": 0.045454545454545456,
+            "f1": 0.08695652173913043,
+            "support": 22
+          },
+          {
+            "value": 1,
+            "key": "positive",
+            "name": "正面",
+            "precision": 0.9537037037037037,
+            "recall": 1.0,
+            "f1": 0.976303317535545,
+            "support": 824
+          }
+        ],
+        "confusion_matrix": [
+          [
+            4,
+            0,
+            20
+          ],
+          [
+            1,
+            1,
+            20
+          ],
+          [
+            0,
+            0,
+            824
+          ]
+        ],
+        "aspect": "Location#Downtown",
+        "group": "位置",
+        "name": "距商圈远近"
+      },
+      {
+        "support": 982,
+        "macro_f1": 0.5835170522160377,
+        "classes": [
+          {
+            "value": -1,
+            "key": "negative",
+            "name": "负面",
+            "precision": 0.6094420600858369,
+            "recall": 0.7634408602150538,
+            "f1": 0.6778042959427207,
+            "support": 186
+          },
+          {
+            "value": 0,
+            "key": "neutral",
+            "name": "中性",
+            "precision": 0.32,
+            "recall": 0.14035087719298245,
+            "f1": 0.1951219512195122,
+            "support": 114
+          },
+          {
+            "value": 1,
+            "key": "positive",
+            "name": "正面",
+            "precision": 0.8669527896995708,
+            "recall": 0.8885630498533724,
+            "f1": 0.8776249094858798,
+            "support": 682
+          }
+        ],
+        "confusion_matrix": [
+          [
+            142,
+            7,
+            37
+          ],
+          [
+            42,
+            16,
+            56
+          ],
+          [
+            49,
+            27,
+            606
+          ]
+        ],
+        "aspect": "Location#Easy_to_find",
+        "group": "位置",
+        "name": "是否容易找到"
+      },
+      {
+        "support": 728,
+        "macro_f1": 0.6058566025468598,
+        "classes": [
+          {
+            "value": -1,
+            "key": "negative",
+            "name": "负面",
+            "precision": 0.6431924882629108,
+            "recall": 0.6284403669724771,
+            "f1": 0.6357308584686775,
+            "support": 218
+          },
+          {
+            "value": 0,
+            "key": "neutral",
+            "name": "中性",
+            "precision": 0.5357142857142857,
+            "recall": 0.5232558139534884,
+            "f1": 0.5294117647058824,
+            "support": 258
+          },
+          {
+            "value": 1,
+            "key": "positive",
+            "name": "正面",
+            "precision": 0.6387832699619772,
+            "recall": 0.6666666666666666,
+            "f1": 0.6524271844660194,
+            "support": 252
+          }
+        ],
+        "confusion_matrix": [
+          [
+            137,
+            59,
+            22
+          ],
+          [
+            50,
+            135,
+            73
+          ],
+          [
+            26,
+            58,
+            168
+          ]
+        ],
+        "aspect": "Service#Queue",
+        "group": "服务",
+        "name": "排队时间"
+      },
+      {
+        "support": 2803,
+        "macro_f1": 0.6691786655205005,
+        "classes": [
+          {
+            "value": -1,
+            "key": "negative",
+            "name": "负面",
+            "precision": 0.6646464646464646,
+            "recall": 0.6911764705882353,
+            "f1": 0.6776519052523172,
+            "support": 476
+          },
+          {
+            "value": 0,
+            "key": "neutral",
+            "name": "中性",
+            "precision": 0.46259541984732827,
+            "recall": 0.5066889632107023,
+            "f1": 0.4836392657621708,
+            "support": 598
+          },
+          {
+            "value": 1,
+            "key": "positive",
+            "name": "正面",
+            "precision": 0.8656987295825771,
+            "recall": 0.8276460381723539,
+            "f1": 0.8462448255470136,
+            "support": 1729
+          }
+        ],
+        "confusion_matrix": [
+          [
+            329,
+            111,
+            36
+          ],
+          [
+            109,
+            303,
+            186
+          ],
+          [
+            57,
+            241,
+            1431
+          ]
+        ],
+        "aspect": "Service#Hospitality",
+        "group": "服务",
+        "name": "服务人员态度"
+      },
+      {
+        "support": 326,
+        "macro_f1": 0.5598756241556399,
+        "classes": [
+          {
+            "value": -1,
+            "key": "negative",
+            "name": "负面",
+            "precision": 0.49333333333333335,
+            "recall": 0.5138888888888888,
+            "f1": 0.5034013605442177,
+            "support": 72
+          },
+          {
+            "value": 0,
+            "key": "neutral",
+            "name": "中性",
+            "precision": 0.46808510638297873,
+            "recall": 0.3188405797101449,
+            "f1": 0.3793103448275862,
+            "support": 69
+          },
+          {
+            "value": 1,
+            "key": "positive",
+            "name": "正面",
+            "precision": 0.7598039215686274,
+            "recall": 0.8378378378378378,
+            "f1": 0.7969151670951157,
+            "support": 185
+          }
+        ],
+        "confusion_matrix": [
+          [
+            37,
+            13,
+            22
+          ],
+          [
+            20,
+            22,
+            27
+          ],
+          [
+            18,
+            12,
+            155
+          ]
+        ],
+        "aspect": "Service#Parking",
+        "group": "服务",
+        "name": "停车便利"
+      },
+      {
+        "support": 760,
+        "macro_f1": 0.605305863849834,
+        "classes": [
+          {
+            "value": -1,
+            "key": "negative",
+            "name": "负面",
+            "precision": 0.6892857142857143,
+            "recall": 0.7394636015325671,
+            "f1": 0.7134935304990758,
+            "support": 261
+          },
+          {
+            "value": 0,
+            "key": "neutral",
+            "name": "中性",
+            "precision": 0.4032258064516129,
+            "recall": 0.24509803921568626,
+            "f1": 0.3048780487804878,
+            "support": 102
+          },
+          {
+            "value": 1,
+            "key": "positive",
+            "name": "正面",
+            "precision": 0.777511961722488,
+            "recall": 0.818639798488665,
+            "f1": 0.7975460122699386,
+            "support": 397
+          }
+        ],
+        "confusion_matrix": [
+          [
+            193,
+            16,
+            52
+          ],
+          [
+            36,
+            25,
+            41
+          ],
+          [
+            51,
+            21,
+            325
+          ]
+        ],
+        "aspect": "Service#Timely",
+        "group": "服务",
+        "name": "点菜／上菜速度"
+      },
+      {
+        "support": 2435,
+        "macro_f1": 0.6606453940272393,
+        "classes": [
+          {
+            "value": -1,
+            "key": "negative",
+            "name": "负面",
+            "precision": 0.6697819314641744,
+            "recall": 0.6913183279742765,
+            "f1": 0.680379746835443,
+            "support": 622
+          },
+          {
+            "value": 0,
+            "key": "neutral",
+            "name": "中性",
+            "precision": 0.6672777268560953,
+            "recall": 0.6697332106715731,
+            "f1": 0.6685032139577594,
+            "support": 1087
+          },
+          {
+            "value": 1,
+            "key": "positive",
+            "name": "正面",
+            "precision": 0.6438746438746439,
+            "recall": 0.6225895316804407,
+            "f1": 0.6330532212885154,
+            "support": 726
+          }
+        ],
+        "confusion_matrix": [
+          [
+            430,
+            138,
+            54
+          ],
+          [
+            163,
+            728,
+            196
+          ],
+          [
+            49,
+            225,
+            452
+          ]
+        ],
+        "aspect": "Price#Level",
+        "group": "价格",
+        "name": "价格水平"
+      },
+      {
+        "support": 1077,
+        "macro_f1": 0.6365983565221701,
+        "classes": [
+          {
+            "value": -1,
+            "key": "negative",
+            "name": "负面",
+            "precision": 0.5632911392405063,
+            "recall": 0.717741935483871,
+            "f1": 0.6312056737588653,
+            "support": 124
+          },
+          {
+            "value": 0,
+            "key": "neutral",
+            "name": "中性",
+            "precision": 0.40869565217391307,
+            "recall": 0.34814814814814815,
+            "f1": 0.376,
+            "support": 135
+          },
+          {
+            "value": 1,
+            "key": "positive",
+            "name": "正面",
+            "precision": 0.9104477611940298,
+            "recall": 0.8948655256723717,
+            "f1": 0.9025893958076449,
+            "support": 818
+          }
+        ],
+        "confusion_matrix": [
+          [
+            89,
+            19,
+            16
+          ],
+          [
+            32,
+            47,
+            56
+          ],
+          [
+            37,
+            49,
+            732
+          ]
+        ],
+        "aspect": "Price#Cost_effective",
+        "group": "价格",
+        "name": "性价比"
+      },
+      {
+        "support": 1556,
+        "macro_f1": 0.5813435560423512,
+        "classes": [
+          {
+            "value": -1,
+            "key": "negative",
+            "name": "负面",
+            "precision": 0.475,
+            "recall": 0.20652173913043478,
+            "f1": 0.2878787878787879,
+            "support": 92
+          },
+          {
+            "value": 0,
+            "key": "neutral",
+            "name": "中性",
+            "precision": 0.67853170189099,
+            "recall": 0.8015768725361366,
+            "f1": 0.7349397590361446,
+            "support": 761
+          },
+          {
+            "value": 1,
+            "key": "positive",
+            "name": "正面",
+            "precision": 0.7714748784440842,
+            "recall": 0.6770981507823614,
+            "f1": 0.7212121212121212,
+            "support": 703
+          }
+        ],
+        "confusion_matrix": [
+          [
+            19,
+            66,
+            7
+          ],
+          [
+            17,
+            610,
+            134
+          ],
+          [
+            4,
+            223,
+            476
+          ]
+        ],
+        "aspect": "Price#Discount",
+        "group": "价格",
+        "name": "折扣力度"
+      },
+      {
+        "support": 2135,
+        "macro_f1": 0.5630818651823448,
+        "classes": [
+          {
+            "value": -1,
+            "key": "negative",
+            "name": "负面",
+            "precision": 0.4266666666666667,
+            "recall": 0.3018867924528302,
+            "f1": 0.35359116022099446,
+            "support": 106
+          },
+          {
+            "value": 0,
+            "key": "neutral",
+            "name": "中性",
+            "precision": 0.411660777385159,
+            "recall": 0.5839598997493735,
+            "f1": 0.48290155440414506,
+            "support": 399
+          },
+          {
+            "value": 1,
+            "key": "positive",
+            "name": "正面",
+            "precision": 0.891566265060241,
+            "recall": 0.8171779141104294,
+            "f1": 0.852752880921895,
+            "support": 1630
+          }
+        ],
+        "confusion_matrix": [
+          [
+            32,
+            56,
+            18
+          ],
+          [
+            22,
+            233,
+            144
+          ],
+          [
+            21,
+            277,
+            1332
+          ]
+        ],
+        "aspect": "Ambience#Decoration",
+        "group": "环境",
+        "name": "装修"
+      },
+      {
+        "support": 1443,
+        "macro_f1": 0.6687058993766849,
+        "classes": [
+          {
+            "value": -1,
+            "key": "negative",
+            "name": "负面",
+            "precision": 0.6258503401360545,
+            "recall": 0.5679012345679012,
+            "f1": 0.5954692556634305,
+            "support": 162
+          },
+          {
+            "value": 0,
+            "key": "neutral",
+            "name": "中性",
+            "precision": 0.5,
+            "recall": 0.5743801652892562,
+            "f1": 0.5346153846153846,
+            "support": 242
+          },
+          {
+            "value": 1,
+            "key": "positive",
+            "name": "正面",
+            "precision": 0.8850687622789783,
+            "recall": 0.8671799807507219,
+            "f1": 0.8760330578512396,
+            "support": 1039
+          }
+        ],
+        "confusion_matrix": [
+          [
+            92,
+            29,
+            41
+          ],
+          [
+            27,
+            139,
+            76
+          ],
+          [
+            28,
+            110,
+            901
+          ]
+        ],
+        "aspect": "Ambience#Noise",
+        "group": "环境",
+        "name": "噪声"
+      },
+      {
+        "support": 1743,
+        "macro_f1": 0.6509320827034933,
+        "classes": [
+          {
+            "value": -1,
+            "key": "negative",
+            "name": "负面",
+            "precision": 0.5823754789272031,
+            "recall": 0.5467625899280576,
+            "f1": 0.5640074211502782,
+            "support": 278
+          },
+          {
+            "value": 0,
+            "key": "neutral",
+            "name": "中性",
+            "precision": 0.559322033898305,
+            "recall": 0.5486935866983373,
+            "f1": 0.5539568345323741,
+            "support": 421
+          },
+          {
+            "value": 1,
+            "key": "positive",
+            "name": "正面",
+            "precision": 0.8250701590271281,
+            "recall": 0.8448275862068966,
+            "f1": 0.8348319924278277,
+            "support": 1044
+          }
+        ],
+        "confusion_matrix": [
+          [
+            152,
+            67,
+            59
+          ],
+          [
+            62,
+            231,
+            128
+          ],
+          [
+            47,
+            115,
+            882
+          ]
+        ],
+        "aspect": "Ambience#Space",
+        "group": "环境",
+        "name": "就餐空间"
+      },
+      {
+        "support": 1633,
+        "macro_f1": 0.6274466762831733,
+        "classes": [
+          {
+            "value": -1,
+            "key": "negative",
+            "name": "负面",
+            "precision": 0.5720338983050848,
+            "recall": 0.6081081081081081,
+            "f1": 0.5895196506550219,
+            "support": 222
+          },
+          {
+            "value": 0,
+            "key": "neutral",
+            "name": "中性",
+            "precision": 0.38188976377952755,
+            "recall": 0.45539906103286387,
+            "f1": 0.41541755888650966,
+            "support": 213
+          },
+          {
+            "value": 1,
+            "key": "positive",
+            "name": "正面",
+            "precision": 0.8985126859142607,
+            "recall": 0.8572621035058431,
+            "f1": 0.877402819307988,
+            "support": 1198
+          }
+        ],
+        "confusion_matrix": [
+          [
+            135,
+            49,
+            38
+          ],
+          [
+            38,
+            97,
+            78
+          ],
+          [
+            63,
+            108,
+            1027
+          ]
+        ],
+        "aspect": "Ambience#Sanitary",
+        "group": "环境",
+        "name": "卫生"
+      },
+      {
+        "support": 2098,
+        "macro_f1": 0.5793513346106741,
+        "classes": [
+          {
+            "value": -1,
+            "key": "negative",
+            "name": "负面",
+            "precision": 0.5828343313373253,
+            "recall": 0.6334056399132321,
+            "f1": 0.6070686070686071,
+            "support": 461
+          },
+          {
+            "value": 0,
+            "key": "neutral",
+            "name": "中性",
+            "precision": 0.3323615160349854,
+            "recall": 0.30563002680965146,
+            "f1": 0.31843575418994413,
+            "support": 373
+          },
+          {
+            "value": 1,
+            "key": "positive",
+            "name": "正面",
+            "precision": 0.8157894736842105,
+            "recall": 0.8093354430379747,
+            "f1": 0.812549642573471,
+            "support": 1264
+          }
+        ],
+        "confusion_matrix": [
+          [
+            292,
+            94,
+            75
+          ],
+          [
+            103,
+            114,
+            156
+          ],
+          [
+            106,
+            135,
+            1023
+          ]
+        ],
+        "aspect": "Food#Portion",
+        "group": "菜品",
+        "name": "分量"
+      },
+      {
+        "support": 4679,
+        "macro_f1": 0.6892457549887793,
+        "classes": [
+          {
+            "value": -1,
+            "key": "negative",
+            "name": "负面",
+            "precision": 0.5057034220532319,
+            "recall": 0.642512077294686,
+            "f1": 0.5659574468085107,
+            "support": 207
+          },
+          {
+            "value": 0,
+            "key": "neutral",
+            "name": "中性",
+            "precision": 0.7073938122705821,
+            "recall": 0.704070981210856,
+            "f1": 0.7057284854826053,
+            "support": 1916
+          },
+          {
+            "value": 1,
+            "key": "positive",
+            "name": "正面",
+            "precision": 0.80350737345556,
+            "recall": 0.7887323943661971,
+            "f1": 0.7960513326752221,
+            "support": 2556
+          }
+        ],
+        "confusion_matrix": [
+          [
+            133,
+            57,
+            17
+          ],
+          [
+            91,
+            1349,
+            476
+          ],
+          [
+            39,
+            501,
+            2016
+          ]
+        ],
+        "aspect": "Food#Taste",
+        "group": "菜品",
+        "name": "口味"
+      },
+      {
+        "support": 1255,
+        "macro_f1": 0.5645226790477191,
+        "classes": [
+          {
+            "value": -1,
+            "key": "negative",
+            "name": "负面",
+            "precision": 0.48502994011976047,
+            "recall": 0.5664335664335665,
+            "f1": 0.5225806451612903,
+            "support": 143
+          },
+          {
+            "value": 0,
+            "key": "neutral",
+            "name": "中性",
+            "precision": 0.31313131313131315,
+            "recall": 0.3229166666666667,
+            "f1": 0.31794871794871793,
+            "support": 192
+          },
+          {
+            "value": 1,
+            "key": "positive",
+            "name": "正面",
+            "precision": 0.8674157303370786,
+            "recall": 0.8391304347826087,
+            "f1": 0.8530386740331491,
+            "support": 920
+          }
+        ],
+        "confusion_matrix": [
+          [
+            81,
+            30,
+            32
+          ],
+          [
+            44,
+            62,
+            86
+          ],
+          [
+            42,
+            106,
+            772
+          ]
+        ],
+        "aspect": "Food#Appearance",
+        "group": "菜品",
+        "name": "外观"
+      },
+      {
+        "support": 861,
+        "macro_f1": 0.6346245815399331,
+        "classes": [
+          {
+            "value": -1,
+            "key": "negative",
+            "name": "负面",
+            "precision": 0.6140350877192983,
+            "recall": 0.7692307692307693,
+            "f1": 0.6829268292682927,
+            "support": 91
+          },
+          {
+            "value": 0,
+            "key": "neutral",
+            "name": "中性",
+            "precision": 0.391304347826087,
+            "recall": 0.23376623376623376,
+            "f1": 0.2926829268292683,
+            "support": 77
+          },
+          {
+            "value": 1,
+            "key": "positive",
+            "name": "正面",
+            "precision": 0.9229671897289586,
+            "recall": 0.9336219336219336,
+            "f1": 0.9282639885222381,
+            "support": 693
+          }
+        ],
+        "confusion_matrix": [
+          [
+            70,
+            8,
+            13
+          ],
+          [
+            18,
+            18,
+            41
+          ],
+          [
+            26,
+            20,
+            647
+          ]
+        ],
+        "aspect": "Food#Recommend",
+        "group": "菜品",
+        "name": "推荐程度"
+      }
+    ]
+  },
+  "model": "baseline"
+}

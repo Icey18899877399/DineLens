@@ -1,0 +1,4 @@
+* text=auto
+dataset/*.csv -text
+dataset/LICENSE -text
+*.sh text eol=lf

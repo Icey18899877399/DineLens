@@ -1,0 +1,349 @@
+{
+  "environment": {
+    "python": "3.12.3",
+    "torch": "2.8.0+cu128",
+    "cuda_runtime": "12.8",
+    "transformers": "4.57.6",
+    "scikit_learn": "1.9.1",
+    "gpu": "Tesla V100S-PCIE-32GB",
+    "pretrained_revision": "8f23c25b06e129b6c986331a13d8d025a92cf0ea",
+    "dataset_sha256": {
+      "train": "30912f5e2a866a4c0f654ec3461215f008b8b90d208f2c410f03369f43655de9",
+      "dev": "54efc8f6bc26d63a9f87e3418cd68e47f2eb13a19085e85abe63f3eafafe2b44",
+      "test": "217dd27c1d5699067952474e40824935d56ecf8b5047950d6da3d1222976a2bd"
+    }
+  },
+  "aspect_baseline": {
+    "n_reviews": 4940,
+    "n_review_aspect_pairs": 88920,
+    "aspect": {
+      "macro_f1": 0.7601101611501203,
+      "micro_f1": 0.7995118313105973
+    },
+    "training": {
+      "model": "baseline",
+      "aspect_keys": [
+        "Location#Transportation",
+        "Location#Downtown",
+        "Location#Easy_to_find",
+        "Service#Queue",
+        "Service#Hospitality",
+        "Service#Parking",
+        "Service#Timely",
+        "Price#Level",
+        "Price#Cost_effective",
+        "Price#Discount",
+        "Ambience#Decoration",
+        "Ambience#Noise",
+        "Ambience#Space",
+        "Ambience#Sanitary",
+        "Food#Portion",
+        "Food#Taste",
+        "Food#Appearance",
+        "Food#Recommend"
+      ],
+      "seed": 42,
+      "splits": {
+        "train": {
+          "reviews": 36832,
+          "removed_duplicates": 18
+        },
+        "dev": {
+          "reviews": 4939,
+          "removed_duplicates": 1
+        },
+        "test": {
+          "reviews": 4940,
+          "removed_duplicates": 0
+        }
+      },
+      "thresholds": [
+        0.5249370363518966,
+        0.49418663881571256,
+        0.5704805733775408,
+        0.48429746931112627,
+        0.3980565941952446,
+        0.5028240734438993,
+        0.5249701452703157,
+        0.43246849547556276,
+        0.4956033422548584,
+        0.44601401604746044,
+        0.4366715561871278,
+        0.47817799774602443,
+        0.47070625871573796,
+        0.43680726810508347,
+        0.4841294868855147,
+        0.18056593336826524,
+        0.45510207761673493,
+        0.5501178701848599
+      ]
+    }
+  },
+  "sentiment_baseline": {
+    "n_reviews": 4940,
+    "n_review_aspect_pairs": 88920,
+    "aspect": {
+      "macro_f1": 0.7601101611501203,
+      "micro_f1": 0.7995118313105973
+    },
+    "training": {
+      "model": "baseline",
+      "aspect_keys": [
+        "Location#Transportation",
+        "Location#Downtown",
+        "Location#Easy_to_find",
+        "Service#Queue",
+        "Service#Hospitality",
+        "Service#Parking",
+        "Service#Timely",
+        "Price#Level",
+        "Price#Cost_effective",
+        "Price#Discount",
+        "Ambience#Decoration",
+        "Ambience#Noise",
+        "Ambience#Space",
+        "Ambience#Sanitary",
+        "Food#Portion",
+        "Food#Taste",
+        "Food#Appearance",
+        "Food#Recommend"
+      ],
+      "seed": 42,
+      "splits": {
+        "train": {
+          "reviews": 36832,
+          "removed_duplicates": 18
+        },
+        "dev": {
+          "reviews": 4939,
+          "removed_duplicates": 1
+        },
+        "test": {
+          "reviews": 4940,
+          "removed_duplicates": 0
+        }
+      },
+      "task": "sentiment",
+      "thresholds": [
+        0.5249370363518966,
+        0.49418663881571256,
+        0.5704805733775408,
+        0.48429746931112627,
+        0.3980565941952446,
+        0.5028240734438993,
+        0.5249701452703157,
+        0.43246849547556276,
+        0.4956033422548584,
+        0.44601401604746044,
+        0.4366715561871278,
+        0.47817799774602443,
+        0.47070625871573796,
+        0.43680726810508347,
+        0.4841294868855147,
+        0.18056593336826524,
+        0.45510207761673493,
+        0.5501178701848599
+      ]
+    },
+    "sentiment_given_gold_mention": {
+      "support": 28362,
+      "macro_f1": 0.6794391993513075,
+      "classes": [
+        {
+          "value": -1,
+          "key": "negative",
+          "name": "负面",
+          "precision": 0.6053097345132743,
+          "recall": 0.6278520849724626,
+          "f1": 0.6163748712667353,
+          "support": 3813
+        },
+        {
+          "value": 0,
+          "key": "neutral",
+          "name": "中性",
+          "precision": 0.5745302713987473,
+          "recall": 0.587532023911187,
+          "f1": 0.5809584124973612,
+          "support": 7026
+        },
+        {
+          "value": 1,
+          "key": "positive",
+          "name": "正面",
+          "precision": 0.8483335268842178,
+          "recall": 0.8337613422359185,
+          "f1": 0.8409843142898259,
+          "support": 17523
+        }
+      ]
+    },
+    "end_to_end_negative": {
+      "gold_pairs": 3813,
+      "predicted_pairs": 3977,
+      "true_positive_pairs": 1892,
+      "micro": {
+        "precision": 0.4757354790042746,
+        "recall": 0.4961972200367165,
+        "f1": 0.4857509627727856
+      },
+      "macro": {
+        "precision": 0.43714616958277003,
+        "recall": 0.4144470149902764,
+        "f1": 0.41297082655952866
+      }
+    }
+  },
+  "joint_bert": {
+    "n_reviews": 4940,
+    "n_review_aspect_pairs": 88920,
+    "aspect": {
+      "macro_f1": 0.8318032592457141,
+      "micro_f1": 0.8601228894511282
+    },
+    "training": {
+      "model": "bert",
+      "aspect_keys": [
+        "Location#Transportation",
+        "Location#Downtown",
+        "Location#Easy_to_find",
+        "Service#Queue",
+        "Service#Hospitality",
+        "Service#Parking",
+        "Service#Timely",
+        "Price#Level",
+        "Price#Cost_effective",
+        "Price#Discount",
+        "Ambience#Decoration",
+        "Ambience#Noise",
+        "Ambience#Space",
+        "Ambience#Sanitary",
+        "Food#Portion",
+        "Food#Taste",
+        "Food#Appearance",
+        "Food#Recommend"
+      ],
+      "seed": 42,
+      "splits": {
+        "train": {
+          "reviews": 36832,
+          "removed_duplicates": 18
+        },
+        "dev": {
+          "reviews": 4939,
+          "removed_duplicates": 1
+        },
+        "test": {
+          "reviews": 4940,
+          "removed_duplicates": 0
+        }
+      },
+      "task": "sentiment",
+      "source_checkpoint": "checkpoints/bert-base-chinese",
+      "device": "cuda",
+      "max_length": 512,
+      "batch_size": 8,
+      "learning_rate": 2e-05,
+      "best_epoch": 3,
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 1.1663232930943201,
+          "dev_macro_f1": 0.8101212939718466,
+          "dev_sentiment_macro_f1": 0.7382935598995282
+        },
+        {
+          "epoch": 2,
+          "train_loss": 0.8558314610936143,
+          "dev_macro_f1": 0.8329598905198194,
+          "dev_sentiment_macro_f1": 0.7658911858595583
+        },
+        {
+          "epoch": 3,
+          "train_loss": 0.7418411745391236,
+          "dev_macro_f1": 0.837588408201746,
+          "dev_sentiment_macro_f1": 0.7743776144757862
+        }
+      ],
+      "thresholds": [
+        0.7077078223228455,
+        0.8017807006835938,
+        0.7992857098579407,
+        0.8269913792610168,
+        0.3565586805343628,
+        0.9219217896461487,
+        0.892375111579895,
+        0.518363356590271,
+        0.7160201072692871,
+        0.7192850708961487,
+        0.4170340299606323,
+        0.5167478919029236,
+        0.5221108198165894,
+        0.6230328679084778,
+        0.5814813375473022,
+        0.09653531759977341,
+        0.5573936104774475,
+        0.8057851195335388
+      ]
+    },
+    "sentiment_given_gold_mention": {
+      "support": 28362,
+      "macro_f1": 0.7848165692759936,
+      "classes": [
+        {
+          "value": -1,
+          "key": "negative",
+          "name": "负面",
+          "precision": 0.7692511246361471,
+          "recall": 0.7623918174665618,
+          "f1": 0.7658061116965227,
+          "support": 3813
+        },
+        {
+          "value": 0,
+          "key": "neutral",
+          "name": "中性",
+          "precision": 0.7294079269287229,
+          "recall": 0.636493025903786,
+          "f1": 0.67979022573535,
+          "support": 7026
+        },
+        {
+          "value": 1,
+          "key": "positive",
+          "name": "正面",
+          "precision": 0.8859744201170605,
+          "recall": 0.9329452719283228,
+          "f1": 0.9088533703961084,
+          "support": 17523
+        }
+      ]
+    },
+    "end_to_end_negative": {
+      "gold_pairs": 3813,
+      "predicted_pairs": 3909,
+      "true_positive_pairs": 2563,
+      "micro": {
+        "precision": 0.6556664108467639,
+        "recall": 0.6721741410962496,
+        "f1": 0.6638176638176638
+      },
+      "macro": {
+        "precision": 0.5774154951406117,
+        "recall": 0.5837745640230579,
+        "f1": 0.5733499787098201
+      }
+    }
+  },
+  "evidence_diagnostics": {
+    "n_pairs_with_gold_negative_aspect": 360,
+    "n_pairs_with_manual_evidence_label": 0,
+    "candidate_counts": {
+      "zero": 274,
+      "one": 75,
+      "multiple": 11
+    },
+    "top1_different": 1,
+    "formal_metrics_path": null
+  }
+}

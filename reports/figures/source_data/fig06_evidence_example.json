@@ -1,0 +1,33 @@
+{
+  "n_pairs_with_gold_negative_aspect": 360,
+  "n_pairs_with_manual_evidence_label": 0,
+  "candidate_counts": {
+    "zero": 274,
+    "one": 75,
+    "multiple": 11
+  },
+  "top1_different": 1,
+  "formal_metrics_path": null,
+  "example": {
+    "text": "菜很好吃，但是等了四十分钟才上菜，前台态度很差。",
+    "aspect": "点菜／上菜速度",
+    "methods": {
+      "tfidf": {
+        "text": "等了四十分钟才上菜",
+        "start": 7,
+        "end": 16,
+        "start_utf16": 7,
+        "end_utf16": 16,
+        "score": 0.06652163424956109
+      },
+      "textrank": {
+        "text": "等了四十分钟才上菜",
+        "start": 7,
+        "end": 16,
+        "start_utf16": 7,
+        "end_utf16": 16,
+        "score": 1.0
+      }
+    }
+  }
+}

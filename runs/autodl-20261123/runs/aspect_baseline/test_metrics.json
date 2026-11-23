@@ -1,0 +1,170 @@
+{
+  "n_reviews": 4940,
+  "macro_f1": 0.7601101611501203,
+  "micro_f1": 0.7995118313105973,
+  "aspects": [
+    {
+      "aspect": "Location#Transportation",
+      "group": "位置",
+      "name": "交通便利",
+      "precision": 0.8166127292340885,
+      "recall": 0.7740286298568507,
+      "f1": 0.794750656167979,
+      "support": 978
+    },
+    {
+      "aspect": "Location#Downtown",
+      "group": "位置",
+      "name": "距商圈远近",
+      "precision": 0.5405921680993314,
+      "recall": 0.6505747126436782,
+      "f1": 0.5905059989567032,
+      "support": 870
+    },
+    {
+      "aspect": "Location#Easy_to_find",
+      "group": "位置",
+      "name": "是否容易找到",
+      "precision": 0.7985948477751756,
+      "recall": 0.6945010183299389,
+      "f1": 0.7429193899782135,
+      "support": 982
+    },
+    {
+      "aspect": "Service#Queue",
+      "group": "服务",
+      "name": "排队时间",
+      "precision": 0.6092077087794433,
+      "recall": 0.7815934065934066,
+      "f1": 0.6847172081829122,
+      "support": 728
+    },
+    {
+      "aspect": "Service#Hospitality",
+      "group": "服务",
+      "name": "服务人员态度",
+      "precision": 0.8829639889196675,
+      "recall": 0.9097395647520514,
+      "f1": 0.8961518186610438,
+      "support": 2803
+    },
+    {
+      "aspect": "Service#Parking",
+      "group": "服务",
+      "name": "停车便利",
+      "precision": 0.8580246913580247,
+      "recall": 0.852760736196319,
+      "f1": 0.8553846153846154,
+      "support": 326
+    },
+    {
+      "aspect": "Service#Timely",
+      "group": "服务",
+      "name": "点菜／上菜速度",
+      "precision": 0.7354497354497355,
+      "recall": 0.7315789473684211,
+      "f1": 0.7335092348284961,
+      "support": 760
+    },
+    {
+      "aspect": "Price#Level",
+      "group": "价格",
+      "name": "价格水平",
+      "precision": 0.8133649663898774,
+      "recall": 0.8447638603696098,
+      "f1": 0.8287671232876712,
+      "support": 2435
+    },
+    {
+      "aspect": "Price#Cost_effective",
+      "group": "价格",
+      "name": "性价比",
+      "precision": 0.7161572052401747,
+      "recall": 0.7613741875580315,
+      "f1": 0.738073807380738,
+      "support": 1077
+    },
+    {
+      "aspect": "Price#Discount",
+      "group": "价格",
+      "name": "折扣力度",
+      "precision": 0.7890671420083185,
+      "recall": 0.8534704370179949,
+      "f1": 0.8200061747452918,
+      "support": 1556
+    },
+    {
+      "aspect": "Ambience#Decoration",
+      "group": "环境",
+      "name": "装修",
+      "precision": 0.8011002962336013,
+      "recall": 0.8866510538641686,
+      "f1": 0.8417074255224545,
+      "support": 2135
+    },
+    {
+      "aspect": "Ambience#Noise",
+      "group": "环境",
+      "name": "噪声",
+      "precision": 0.7214953271028037,
+      "recall": 0.8024948024948025,
+      "f1": 0.7598425196850394,
+      "support": 1443
+    },
+    {
+      "aspect": "Ambience#Space",
+      "group": "环境",
+      "name": "就餐空间",
+      "precision": 0.6856287425149701,
+      "recall": 0.7882960413080895,
+      "f1": 0.733386709367494,
+      "support": 1743
+    },
+    {
+      "aspect": "Ambience#Sanitary",
+      "group": "环境",
+      "name": "卫生",
+      "precision": 0.7228483606557377,
+      "recall": 0.8640538885486834,
+      "f1": 0.7871687587168759,
+      "support": 1633
+    },
+    {
+      "aspect": "Food#Portion",
+      "group": "菜品",
+      "name": "分量",
+      "precision": 0.7494033412887828,
+      "recall": 0.7483317445185891,
+      "f1": 0.7488671595516336,
+      "support": 2098
+    },
+    {
+      "aspect": "Food#Taste",
+      "group": "菜品",
+      "name": "口味",
+      "precision": 0.9583676834295136,
+      "recall": 0.9938020944646292,
+      "f1": 0.9757632987094743,
+      "support": 4679
+    },
+    {
+      "aspect": "Food#Appearance",
+      "group": "菜品",
+      "name": "外观",
+      "precision": 0.47157190635451507,
+      "recall": 0.6741035856573705,
+      "f1": 0.5549360446047884,
+      "support": 1255
+    },
+    {
+      "aspect": "Food#Recommend",
+      "group": "菜品",
+      "name": "推荐程度",
+      "precision": 0.5884353741496599,
+      "recall": 0.6027874564459931,
+      "f1": 0.5955249569707401,
+      "support": 861
+    }
+  ],
+  "model": "baseline"
+}

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="427.929449pt" height="120.219591pt" viewBox="0 0 427.929449 120.219591" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-23T15:25:37.080631</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 120.219591 
+L 427.929449 120.219591 
+L 427.929449 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="LineCollection_1">
+    <path d="M 3.96 25.326992 
+L 423.969449 25.326992 
+" clip-path="url(#p1a172e081c)" style="fill: none; stroke: #242424; stroke-width: 0.8"/>
+    <path d="M 3.96 46.722898 
+L 423.969449 46.722898 
+" clip-path="url(#p1a172e081c)" style="fill: none; stroke: #242424; stroke-width: 0.5"/>
+    <path d="M 3.96 116.259591 
+L 423.969449 116.259591 
+" clip-path="url(#p1a172e081c)" style="fill: none; stroke: #242424; stroke-width: 0.8"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 8.7px; font-family: 'Times New Roman', 'SimSun'; text-anchor: start; fill: #242424" x="7.320076" y="39.369358" transform="rotate(-0 7.320076 39.369358)">项目</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 8.7px; font-family: 'Times New Roman', 'SimSun'; text-anchor: start; fill: #242424" x="81.241739" y="39.38635" transform="rotate(-0 81.241739 39.38635)">评论原文与抽取片段</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 8.7px; font-family: 'Times New Roman', 'SimSun'; text-anchor: start; fill: #242424" x="384.488561" y="39.420335" transform="rotate(-0 384.488561 39.420335)">字符区间</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', 'SimSun'; text-anchor: start; fill: #242424" x="7.320076" y="60.829177" transform="rotate(-0 7.320076 60.829177)">原评论</text>
+   </g>
+   <g id="AnnotationBbox_1">
+    <g id="text_5">
+     <text style="font-size: 9px; font-family: 'Times New Roman', 'SimSun'; text-anchor: start; fill: #242424" x="81.241739" y="61.01448" transform="rotate(-0 81.241739 61.01448)">菜很好吃，但是</text>
+    </g>
+    <g id="text_6">
+     <text style="font-size: 9px; font-family: 'Times New Roman', 'SimSun'; text-anchor: start; fill: #973e50" x="144.241739" y="61.01448" transform="rotate(-0 144.241739 61.01448)">等了四十分钟才上菜</text>
+    </g>
+    <g id="text_7">
+     <text style="font-size: 9px; font-family: 'Times New Roman', 'SimSun'; text-anchor: start; fill: #242424" x="225.241739" y="61.01448" transform="rotate(-0 225.241739 61.01448)">，前台态度很差。</text>
+    </g>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', 'SimSun'; text-anchor: start; fill: #242424" x="7.320076" y="83.092867" transform="rotate(-0 7.320076 83.092867)">TF-IDF</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'SimSun'; text-anchor: start; fill: #973e50" x="81.241739" y="83.801119" transform="rotate(-0 81.241739 83.801119)">等了四十分钟才上菜</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', 'SimSun'; text-anchor: start; fill: #242424" x="384.488561" y="83.097183" transform="rotate(-0 384.488561 83.097183)">[7, 16)</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', 'SimSun'; text-anchor: start; fill: #242424" x="7.320076" y="105.990802" transform="rotate(-0 7.320076 105.990802)">TextRank</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'SimSun'; text-anchor: start; fill: #973e50" x="81.241739" y="106.694738" transform="rotate(-0 81.241739 106.694738)">等了四十分钟才上菜</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', 'SimSun'; text-anchor: start; fill: #242424" x="384.488561" y="105.990802" transform="rotate(-0 384.488561 105.990802)">[7, 16)</text>
+   </g>
+  </g>
+  <g id="text_14">
+   <text style="font-size: 8.5px; font-family: 'Times New Roman', 'SimSun'; text-anchor: start; fill: #505050" x="5.830866" y="10.965859" transform="rotate(-0 5.830866 10.965859)">演示方面：点菜／上菜速度</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p1a172e081c">
+   <rect x="3.96" y="17.838425" width="420.009449" height="98.421165"/>
+  </clipPath>
+ </defs>
+</svg>
